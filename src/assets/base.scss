@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+body{
+  font-family: 'Lato', sans-serif;
+  background:$gray;
+}
+a{
+  color:$primary;
+}
+.has-text-centered{
+  text-align:center;
+}
+.has-primary-text{
+  color:$primary;
+}
+.has-secondary-text{
+  color:$secondary;
+}
+.has-success-text{
+  color:$success;
+}
+.has-stroked-text{
+  text-decoration:line-through;
+}
+.is-image{
+  width:100%;
+  height:auto;
+}
+
+.is-button{
+  border-radius:50px;
+  display:inline-block;
+  padding:5px 10px;
+  border:none;
+  &.is-large{
+    padding:10px 30px;  
+    font-size:0.7em;
+  }
+}
+.is-button.is-secondary{
+  background:$secondary;
+  color:white;
+}
+.is-pulled-right{
+  float:right;
+}
+.is-padding-less{
+  padding:0px;
+}
+
+///typography
+.is-size-1{
+  font-size:3em;
+}
+.is-size-2{
+  font-size:2em;
+}
+.is-size-3{
+  font-size:1.5em;
+}
